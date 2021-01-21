@@ -1,38 +1,250 @@
-.App {
-  text-align: center;
+.btn__yellow {
+  padding: 16px 50px;
+  border-radius: 40px;
+  border: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  background-color: #d5c29c;
+  color: #293745;
+  transition: 0.3s all ease;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn__blue {
+  padding: 16px 50px;
+  border-radius: 40px;
+  border: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  background-color: #293745;
+  color: #d5c29c;
+  transition: 0.3s all ease;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.padding__top {
+  margin-top: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.CTA_Button:hover {
+  cursor: pointer;
+  background-color: #3c5065;
+}
+
+.textbox {
+  padding-left: 140px;
+  padding-right: 140px;
+  
+}
+
+.split {
   display: flex;
-  flex-direction: column;
+}
+
+.rightSplit {
+  width: 50%;
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+}
+
+
+.leftSplit{
+  width:50%;
+  height:100%;
+}
+
+
+.splitInner{
+  display:flex;
+  height:100%;
+  }
+
+
+.recipeCard{
+  width:200px;
+  height:300px;
+  border-radius:8px;
+  border:1px solid rgb(192, 192, 192);
+  background-color:white;
+  margin-right:30px;
+  padding:30px;
+}
+
+.cardTitle{
+  font-size:20px;
+  font-family:Inter;
+  font-weight:500;
+  margin-bottom:10px;
+}
+.cardDescription{
+  font-size:14px;
+  font-family:Inter;
+  font-weight:400;
+}
+
+.recipeContainer{
+  display:flex;
+  margin-bottom:100px;
+}
+
+.header {
+  width: 100%;
+  height: 800px;
+  background-color: #293745;
+  display: flex;
+  margin-bottom:100px;
+}
+
+.innerHeader {
+  display: flex;
+  padding-top: 200px;
+}
+
+
+.pretitle {
+  font-family: Bebas Neue;
+  color: #eddda3;
+  margin: 0px;
+  font-size: 30px;
+}
+
+
+.Yellow {
+  width: 1450px;
+  height: 550px;
+  margin-bottom:200px;
+  background-color: #eddda3;
+}
+
+
+
+.header__description {
   color: white;
+  font-size: 18px;
+  padding-bottom:40px;
+  line-height:150%;
 }
 
-.App-link {
-  color: #61dafb;
+.headerContainer {
+  width: 330px;
+  padding-left: 300px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.blue {
+  width: 1450px;
+  height: 550px;
+  background-color: rgb(70, 86, 179);
+}
+
+h1 {
+  font-size: 80px;
+  color: white;
+  font-family: Bebas Neue;
+  margin: 0px;
+  font-weight: 300;
+  line-height: 80px;
+}
+
+h2 {
+  font-size: 46px;
+  color: #293745;
+  font-weight: 300;
+  font-family: Bebas Neue;
+  margin: 0px;
+}
+p {
+  color: #293745;
+  line-height: 150%;
+  margin: 0px;
+  margin-bottom: 40px;
+}
+
+.test {
+  width: 200px;
+  border: 1px solid grey;
+  border-radius: 8px;
+  padding: 20px 30px;
+}
+.button {
+  background-color: green;
+}
+.what {
+  border: 1px solid grey;
+  padding: 20px 30px;
+  width: 60px;
+  border-radius: 8px;
+  transition: all 0.4s ease;
+}
+
+.what:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.navContainer {
+  display: flex;
+  float: right;
+}
+
+.navbarouter {
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+
+.split__image{
+  height:100%;
+}
+
+.navbarinner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 1450px;
+  margin: 0 auto;
+}
+
+.navItem {
+  font-size: 18px;
+  font-family: Avenir;
+  color: white;
+  padding-left: 30px;
+}
+
+.leftHeader {
+}
+.rightHeader {
+}
+.slider{display:flex;margin-left:200px;}
+
+.herografik{
+  position:absolute;
+  width:380px;
+  transform:translate(-200px, -190px);
+}
+
+.sliderimage {
+  height: 630px;
+  width: 630px;
+  margin-right:40px;
+}
+
+.logo {
+  width: 140px;
+}
+
+.innerContainer{
+  width:1450px;
+  margin:0 auto;
+}
+
+body{
+  overflow-x: hidden;
 }
